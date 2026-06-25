@@ -1,73 +1,16 @@
-<div align="center">
+# React + Vite
 
-# 👋 ¡Hola! Soy Juan Javier Castillo Bretón
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### 🎓 Estudiante en la Universidad Tecnológica de Tlaxcala · 💻 Desarrollador Independiente · 🚀 Creador de proyectos creativos
+Currently, two official plugins are available:
 
-[![GitHub followers](https://img.shields.io/github/followers/JJgithubUT?style=flat-square&color=6e40c9&labelColor=1c1c2e&label=followers)](https://github.com/JJgithubUT?tab=followers)
-[![GitHub User's stars](https://img.shields.io/github/stars/JJgithubUT?style=flat-square&color=f7c948&labelColor=1c1c2e&label=stars)](https://github.com/JJgithubUT?tab=stars)
-![Repos](https://img.shields.io/badge/repos-63-brightgreen?style=flat-square&color=00d8a2&labelColor=1c1c2e)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-</div>
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Mi stack tecnológico
+## Expanding the ESLint configuration
 
-### 🌐 Frontend & Mobile
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### ⚙️ Backend & Cloud
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### 🗄️ Bases de datos
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### 🔧 Otros lenguajes & herramientas
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=assemblyscript&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino_ESP32-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-
----
-
-## 🚀 Proyectos destacados
-
-| Proyecto | Descripción | Tecnología |
-|---|---|---|
-| [🪑 SCRBM](https://github.com/JJgithubUT/SCRBM) | Sistema de Cotización para Restauración de Bienes Muebles | Python |
-| [🌐 PruebasAppsWeb3erCT](https://github.com/JJgithubUT/PruebasAppsWeb3erCT) | Aplicaciones web — experimentos y prototipos | Python |
-
-> 💡 Explora todos mis proyectos en mis [repositorios](https://github.com/JJgithubUT?tab=repositories) — siempre hay algo nuevo en construcción.
-
----
-
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-
-![JJgithubUT's GitHub stats](https://github-readme-stats.vercel.app/api?username=JJgithubUT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JJgithubUT&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-*Hecho con ☕ y mucho código desde Tlaxcala, México 🇲🇽*
-
-</div>
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
